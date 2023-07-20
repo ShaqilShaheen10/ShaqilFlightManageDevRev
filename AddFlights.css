@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  body{
+    background-image: url("file:///E:/DevRev/twJx5g.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+    max-width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"],
+  input[type="time"],
+  input[type="number"] {
+    padding: 0.5rem;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  

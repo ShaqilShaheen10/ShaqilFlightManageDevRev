@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>View All Bookings</title>
+  <link rel="stylesheet" type="text/css" href="AllBooking.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="login.htm">Login</a></li>
+        <li><a href="signup.html">Sign up</a></li>
+        <li><a href="SearchF.html">Search Flights</a></li>
+        <li><a href="booking.html">Book Tickets</a></li>
+        <li><a href="bPage.html">My Booking</a></li>
+        <li><a href="admin_login.html">Admin Login</a></li>
+        <li><a href="AddFlights.html">Add Flights</a></li>
+        <li><a href="RemoveFlights.html">Remove Flights</a></li>
+        <li><a href="AllBooking.html">View All Bookings</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>View All Bookings</h1>
+    <form>
+      <div class="input-container">
+        <label for="flight-number">Flight Number:</label>
+        <input type="text" id="flight-number" placeholder="Flight Number" required>
+      </div>
+      <div class="input-container">
+        <label for="flight-time">Time:</label>
+        <input type="time" id="flight-time" required>
+      </div>
+      <button type="submit">Search</button>
+    </form>
+    <div class="booking-results">
+      <!-- Display bookings based on flight number and time -->
+    </div>
+  </div>
+</body>
+</html>
